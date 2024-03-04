@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+
+    background-image: url("images/Untitled design.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat, repeat;
+
+    background-size: cover;
+   
+
+
+
+
+
+    font-family: 'Arial', sans-serif;
+    font-family: "VT323", monospace;
+  
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFD1DC; */
+
+   
+
+
+
+
+    /* background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 53%, rgba(255, 255, 255, 1) 100%); */
+
+
+   
+    /* background-size: cover;  */
+    /* background-position: center;  */
+
+
+
+   
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+header {
+    /* background-color: #ffcccc; */
+    color: #333;
+    padding: 1em;
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+
+h1 {
+    /* color: #ff6666; */
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: "Patrick Hand", cursive;
+
+
+}
+
+header {
+    background-color: #79caf9;
+    color: #333;
+    padding: 1em;
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-size: 36px;
+}
+
+main {
+
+    
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    border-radius: 10px;
+    animation: expandContract 3s ease-in-out infinite;
+} 
+p {
+    color: #666;
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+main p {
+   
+} 
+
+a {
+    color: #ff6666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #ff6666;
+}
+
+input,
+button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ff6666;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    background-color: #ff6666;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+
+
+p {
+    color: black;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: bold;
+}
+
+a {
+    color: #ff6666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #ff6666;
+}
+
+input,
+button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ff6666;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    background-color: #ff6666;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+@keyframes expandContract {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+  }
+  
